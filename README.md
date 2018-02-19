@@ -6,7 +6,7 @@ This is MVVM pattern testing with Swift.
 
 # MVVM 란?
 MVVM(Model-view-viewmodel) 패턴은 소프트웨어 아키텍처 패턴입니다.
-| 비슷한 용어 (model-view-binder), 인터페이스의 이벤트 중심 프로그래밍을 단순화하기 위한 목적을 가지고 있습니다.
+> 비슷한 용어 (model-view-binder), 인터페이스의 이벤트 중심 프로그래밍을 단순화하기 위한 목적을 가지고 있습니다.
 
 <pre>
 M (Model)
