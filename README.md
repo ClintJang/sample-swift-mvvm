@@ -20,4 +20,12 @@ VM (ViewModel)
 ※ 개체 : 전체나 집단에 상대하여 하나하나의 낱개를 이르는 말.
 </pre>
 
+## MVVM 상세
+### 흐름도
+<img width="480" height="360" src="/Image/mvvm흐름도임.png"></img>
+
+### 계층으로 보면
+
+
+### etc
 ... 연습중, 테스팅, 정리중, 생각중
