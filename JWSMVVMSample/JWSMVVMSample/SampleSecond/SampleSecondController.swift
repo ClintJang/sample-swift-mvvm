@@ -9,17 +9,30 @@
 import UIKit
 
 protocol SampleSecondControllerProtocol {
-    
+    var viewModel:SampleSecondViewModel { get set }
+    func configure()
 }
 
 class SampleSecondController : UIViewController, SampleSecondControllerProtocol {
+    var viewModel = SampleSecondViewModel()
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        configure()
+    }
+    
+    @IBAction func onBack(_ sender: Any) {
+        viewModel.back {
+            self.navigationController?.popViewController(animated: true)
+        }
+    }
+    
+    func configure() {
+        titleLabel.text = viewModel.title
     }
 }
 

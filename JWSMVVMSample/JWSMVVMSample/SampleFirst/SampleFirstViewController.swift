@@ -32,8 +32,10 @@ class SampleFirstViewController: UIViewController, SampleFirstViewControllerProt
     @IBAction func showNextSample(_ sender: Any) {
         viewModel.move() { isSuccess in
             if isSuccess {
-                // move Sample Second
                 print("\(#function)::move sample second")
+                
+                // move
+                self.performSegue(withIdentifier: "SampleSecondIdentifier", sender: nil)
             }
         }
     }
