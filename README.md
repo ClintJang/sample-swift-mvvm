@@ -1,4 +1,4 @@
-# sample-swift-mvvm
+# swift mvvm sample
 [![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/JWSBoltsSwiftSample/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://swift.org) 
 
 This is MVVM pattern testing with Swift.
@@ -26,7 +26,9 @@ VM (ViewModel)
 - 데이터 개체를 변환하는 역활
 - 화면 표현의 대부분을 처리
 
-그리고 Binder 개념이 내포되어있어서, 데이터와 커멘드바인딩(command-binding, Declarative data)가 뷰 모델과 뷰을 데이터가 동기화할 의무를 없도록 만듭니다. 실행을 하게 하고, 속성이 연결되어있어서 속성값 변경시 뷰에 반영되도록 합니다.
+그리고 Binder 개념이 내포되어있어서, 데이터와 커멘드바인딩(command-binding, Declarative data)가 
+뷰 모델과 뷰을 데이터가 동기화할 의무를 없도록 만듭니다. 
+이벤트 실행과, 속성이 연결되어있어서 속성값 변경시 뷰에 반영되도록 합니다.
 
 MVVM 패턴의 소스를 처음 접하신다면, VM 부터 분석해 나가시면 보다 수월하지 않을 까 싶습니다.
 ※ 개체 : 전체나 집단에 상대하여 하나하나의 낱개를 이르는 말.
