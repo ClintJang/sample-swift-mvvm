@@ -1,4 +1,6 @@
 # sample-swift-mvvm
+[![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/JWSBoltsSwiftSample/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://swift.org) 
+
 This is MVVM pattern testing with Swift.
 
 .... I'm still practicing.
@@ -26,6 +28,19 @@ VM (ViewModel)
 
 ### 계층으로 보면
 
+## 소스 구성
+<table style="width:100%">
+  <tr>
+	<th>구조</th> 
+    <th>실행 전</th>
+    <th>실행 후</th> 
+  </tr>
+  <tr>
+  	<td><img width="268" height="480" src="/Image/구조.png"></img></td>
+    <td><img width="268" height="480" src="/Image/실행전.png"></img></td>
+    <td><img width="268" height="480" src="/Image/실행저후.png"></img></td> 
+  </tr>
+</table>
 
 ### etc
-... 연습중, 테스팅, 정리중, 생각중
+...셈플링 해보는 중.. 연습중, 테스팅, 정리중, 생각중
