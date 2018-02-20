@@ -1,9 +1,7 @@
 # swift mvvm sample
 [![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/JWSBoltsSwiftSample/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://swift.org) 
 
-This is MVVM pattern testing with Swift.
-
-.... I'm still practicing.
+Use Swift to study, note, and sample MVVM pattern.
 
 # MVVM의 과거
 Microsoft architects인 Ken Cooper와 Ted Peters가 고안했었다고 합니다.
@@ -60,4 +58,4 @@ MVVM 패턴의 소스를 처음 접하신다면, VM 부터 분석해 나가시�
 - [MVC, MVP, MVVM 비교](https://magi82.github.io/android-mvc-mvp-mvvm/) : 구체적이고 역시 MVC, MVP와 비교하며 생각할 시간을 가지게 해줍니다.
 
 ### etc
-...셈플링 해보는 중.. 연습중, 테스팅, 정리중, 고민중, 생각중
+아직........셈플링 해보는 중.. 연습중, 테스팅, 정리중, 고민중, 생각중
