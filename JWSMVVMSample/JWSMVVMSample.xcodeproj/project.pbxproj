@@ -16,6 +16,8 @@
 		BC662980203A8C25009C641B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC66297E203A8C25009C641B /* Main.storyboard */; };
 		BC662982203A8C25009C641B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC662981203A8C25009C641B /* Assets.xcassets */; };
 		BC662985203A8C25009C641B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC662983203A8C25009C641B /* LaunchScreen.storyboard */; };
+		BC8E0450203C29AC00B365DB /* SampleFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E044F203C29AC00B365DB /* SampleFirstViewController.swift */; };
+		BC8E0455203C2A4800B365DB /* SampleFirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E0454203C2A4800B365DB /* SampleFirstViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BC662981203A8C25009C641B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC662984203A8C25009C641B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC662986203A8C25009C641B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8E044F203C29AC00B365DB /* SampleFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFirstViewController.swift; sourceTree = "<group>"; };
+		BC8E0454203C2A4800B365DB /* SampleFirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFirstViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +50,7 @@
 		BC01D06C203AC2CF0059128D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				BC01D077203AD28C0059128D /* TestViewModel.swift */,
+				BC8E0454203C2A4800B365DB /* SampleFirstViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -58,14 +62,6 @@
 				BC01D071203AD1260059128D /* ImageTableViewCell.swift */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		BC01D06E203AD0AA0059128D /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				BC01D073203AD1420059128D /* TestPresentableProtocol.swift */,
-			);
-			path = Protocol;
 			sourceTree = "<group>";
 		};
 		BC66296E203A8C25009C641B = {
@@ -87,17 +83,35 @@
 		BC662979203A8C25009C641B /* JWSMVVMSample */ = {
 			isa = PBXGroup;
 			children = (
-				BC01D06E203AD0AA0059128D /* Protocol */,
-				BC01D06D203AC2E10059128D /* Cell */,
 				BC01D06C203AC2CF0059128D /* ViewModel */,
+				BC8E0453203C2A2800B365DB /* Presentation */,
 				BC66297A203A8C25009C641B /* AppDelegate.swift */,
-				BC66297C203A8C25009C641B /* TestController.swift */,
-				BC66297E203A8C25009C641B /* Main.storyboard */,
+				BC8E0456203C300D00B365DB /* On hold */,
 				BC662981203A8C25009C641B /* Assets.xcassets */,
 				BC662983203A8C25009C641B /* LaunchScreen.storyboard */,
 				BC662986203A8C25009C641B /* Info.plist */,
 			);
 			path = JWSMVVMSample;
+			sourceTree = "<group>";
+		};
+		BC8E0453203C2A2800B365DB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E044F203C29AC00B365DB /* SampleFirstViewController.swift */,
+				BC66297E203A8C25009C641B /* Main.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		BC8E0456203C300D00B365DB /* On hold */ = {
+			isa = PBXGroup;
+			children = (
+				BC01D073203AD1420059128D /* TestPresentableProtocol.swift */,
+				BC01D077203AD28C0059128D /* TestViewModel.swift */,
+				BC66297C203A8C25009C641B /* TestController.swift */,
+				BC01D06D203AC2E10059128D /* Cell */,
+			);
+			path = "On hold";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,7 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8E0455203C2A4800B365DB /* SampleFirstViewModel.swift in Sources */,
 				BC01D070203AD1170059128D /* TextTableViewCell.swift in Sources */,
+				BC8E0450203C29AC00B365DB /* SampleFirstViewController.swift in Sources */,
 				BC01D072203AD1260059128D /* ImageTableViewCell.swift in Sources */,
 				BC66297D203A8C25009C641B /* TestController.swift in Sources */,
 				BC66297B203A8C25009C641B /* AppDelegate.swift in Sources */,
