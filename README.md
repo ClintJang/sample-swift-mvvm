@@ -39,6 +39,9 @@ MVVM 패턴의 소스를 처음 접하신다면, VM 부터 분석해 나가시�
 ### 계층으로 보면
 <img width="480" height="360" src="/Image/mvvm계층도임.png"></img>
 
+### 프로젝트 안에서의 모습을 상상하면..
+<img width="480" height="360" src="/Image/mvvm많이많이.png"></img>
+
 ## 셈플 소스 구성
 > 첫번째 셈플을 만들고 끝나면 두번째 셈플을 만들어 나가면서 여러형태의 셈플을 늘려나가며 MVVM 에 대해 만들어보며 이해하려고 합니다.
 <table style="width:100%">
