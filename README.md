@@ -39,12 +39,13 @@ MVVM 패턴의 소스를 처음 접하신다면, VM 부터 분석해 나가시�
 ### 계층으로 보면
 <img width="480" height="360" src="/Image/mvvm계층도임.png"></img>
 
-## 소스 구성
+## 셈플 소스 구성
+> 첫번째 셈플을 만들고 끝나면 두번째 셈플을 만들어 나가면서 여러형태의 셈플을 늘려나가며 MVVM 에 대해 만들어보며 이해하려고 합니다.
 <table style="width:100%">
   <tr>
 	<th>구조</th> 
-    <th>실행 전</th>
-    <th>실행 후</th> 
+    <th>실행 전 (첫번째 셈플)<br>스토리보드</th>
+    <th>실행 후 (첫번째 셈플)</th> 
   </tr>
   <tr>
   	<td><img width="268" height="480" src="/Image/structure_00.png"></img></td>
@@ -58,4 +59,4 @@ MVVM 패턴의 소스를 처음 접하신다면, VM 부터 분석해 나가시�
 - [MVC, MVP, MVVM 비교](https://magi82.github.io/android-mvc-mvp-mvvm/) : 구체적이고 역시 MVC, MVP와 비교하며 생각할 시간을 가지게 해줍니다.
 
 ### etc
-아직........셈플링 해보는 중.. 연습중, 테스팅, 정리중, 고민중, 생각중
+아직........셈플링 해보는 중.. 2번째 셈플 테스팅중, 정리중, 고민중, 생각중
