@@ -36,9 +36,9 @@ VM (ViewModel)
     <th>실행 후</th> 
   </tr>
   <tr>
-  	<td><img width="268" height="480" src="/Image/구조.png"></img></td>
-    <td><img width="268" height="480" src="/Image/실행전.png"></img></td>
-    <td><img width="268" height="480" src="/Image/실행저후.png"></img></td> 
+  	<td><img width="268" height="480" src="/Image/structure_00.png"></img></td>
+    <td><img width="268" height="480" src="/Image/run_00.png"></img></td>
+    <td><img width="268" height="480" src="/Image/run_01.png"></img></td> 
   </tr>
 </table>
 
