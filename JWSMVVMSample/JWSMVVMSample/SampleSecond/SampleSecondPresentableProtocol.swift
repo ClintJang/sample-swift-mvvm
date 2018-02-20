@@ -1,5 +1,5 @@
 //
-//  ImagePresentable.swift
+//  SampleSecondPresentable.swift
 //  JWSMVVMSample
 //
 //  Created by Clint on 2018. 2. 19..

@@ -1,5 +1,5 @@
 //
-//  SampleAViewController.swift
+//  SampleFirstViewController.swift
 //  JWSMVVMSample
 //
 //  Created by Clint on 2018. 2. 20..

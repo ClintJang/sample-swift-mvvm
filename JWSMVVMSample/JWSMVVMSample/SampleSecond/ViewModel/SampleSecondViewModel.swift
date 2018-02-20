@@ -1,5 +1,5 @@
 //
-//  TestViewModel.swift
+//  SampleSecondViewModel.swift
 //  JWSMVVMSample
 //
 //  Created by Clint on 2018. 2. 19..

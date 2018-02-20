@@ -1,5 +1,5 @@
 //
-//  TestController.swift
+//  SampleSecondController.swift
 //  JWSMVVMSample
 //
 //  Created by Clint on 2018. 2. 19..
@@ -8,7 +8,11 @@
 
 import UIKit
 
-class TestController : UIViewController {
+protocol SampleSecondControllerProtocol {
+    
+}
+
+class SampleSecondController : UIViewController, SampleSecondControllerProtocol {
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
@@ -17,16 +21,11 @@ class TestController : UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 }
 
 
 // MARK: - UITableViewDataSouce
-extension TestController: UITableViewDataSource {
+extension SampleSecondController: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return 3
@@ -41,5 +40,5 @@ extension TestController: UITableViewDataSource {
 }
 
 // MARK: - UITableViewDelegate
-extension TestController: UITableViewDelegate {
+extension SampleSecondController: UITableViewDelegate {
 }
