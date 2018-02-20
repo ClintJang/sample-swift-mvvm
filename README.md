@@ -5,8 +5,8 @@ Use Swift to study, note, and sample MVVM pattern.
 
 # MVVM의 과거
 Microsoft architects인 Ken Cooper와 Ted Peters가 고안했었다고 합니다.
-이후 Windows Presentation Foundation (WPF) (Microsoft의 .NET 그래픽 시스템)과 Silverlight (WPF의 인터넷 응용 프로그램 파생물)에 통합되었고, John Gossman의 블로그에 의해 2005년 에서 MVVM을 발표되었다고 합니다.
-> 이후 다양하게 파생되어진 것 같습니다. 
+이후 Windows Presentation Foundation (WPF) (Microsoft의 .NET 그래픽 시스템)과 Silverlight (WPF의 인터넷 응용 프로그램 확장)에 통합되었고, John Gossman의 블로그에 의해 2005년 에서 MVVM을 발표되었다고 합니다.
+> 이후 다양하게 파생?되어진 것 같습니다. 
 
 # MVVM 란?
 MVVM(Model-view-viewmodel) 패턴은 소프트웨어 아키텍처 패턴입니다.
