@@ -27,6 +27,7 @@ VM (ViewModel)
 <img width="480" height="360" src="/Image/mvvm흐름도임.png"></img>
 
 ### 계층으로 보면
+<img width="480" height="360" src="/Image/mvvm계층도임.png"></img>
 
 ## 소스 구성
 <table style="width:100%">
