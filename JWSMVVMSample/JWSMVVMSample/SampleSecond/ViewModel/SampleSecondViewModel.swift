@@ -16,7 +16,7 @@ protocol SampleSecondProtocol {
 
 public class SampleSecondViewModel: SampleSecondProtocol {
     public var title:String {
-        return "Sample Second 작업? 고민중.."
+        return "Second .. 동적인 표현값과 고정적인 값.. 어디에 맞는 것일까?"
     }
     
     public func back(completion:@escaping () -> Void) {

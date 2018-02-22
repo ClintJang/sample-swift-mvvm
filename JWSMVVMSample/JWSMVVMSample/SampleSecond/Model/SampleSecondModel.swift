@@ -8,6 +8,7 @@
 
 import Foundation
 
+// 이번에도 모델을 넣을 수가 없나???
 public class SampleSecondModel {
-    
+
 }

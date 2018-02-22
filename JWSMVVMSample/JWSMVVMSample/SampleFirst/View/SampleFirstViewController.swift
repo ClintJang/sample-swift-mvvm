@@ -19,6 +19,7 @@ protocol SampleFirstViewControllerProtocol {
 class SampleFirstViewController: UIViewController, SampleFirstViewControllerProtocol {
 
     var viewModel = SampleFirstViewModel()
+    
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var moveButton: UIButton!
